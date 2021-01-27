@@ -98,7 +98,7 @@ public:
     void exportBuffer(struct wl_resource *bufferResource) override
     {
         static const EGLint image_attrs[] = {
-            EGL_TRIPLE_BUFFER_NV, 0,
+            EGL_DRM_PLANE_EXT, 0,
             EGL_NONE
         };
         EGLImageKHR image = eglCreateImage (m_eglDisplay,
