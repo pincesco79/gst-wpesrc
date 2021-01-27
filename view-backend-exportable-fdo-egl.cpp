@@ -257,7 +257,3 @@ wpe_view_backend_exportable_fdo_egl_dispatch_release_image(struct wpe_view_backe
 
 }
 
-
-
-
-EGL_DRM_PLANE_EXT
